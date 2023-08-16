@@ -90,7 +90,7 @@ export default () => {
             <Heading>
               <span>XPACTIX LLC</span>
               <br />
-              <SlantedBackground>Redefining Transaction</SlantedBackground>
+              <SlantedBackground>Global Payment</SlantedBackground>
             </Heading>
             <PrimaryAction>Read Customer Stories</PrimaryAction>
           </LeftColumn>
