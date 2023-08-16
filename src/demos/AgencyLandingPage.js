@@ -13,7 +13,7 @@ import Hero from "components/hero/BackgroundAsImage.js";
 // import FAQ from "components/faqs/SimpleWithSideImage.js";
 // import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
-import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
+// import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 
 export default () => (
   <AnimationRevealPage>
