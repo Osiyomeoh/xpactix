@@ -2,10 +2,10 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
+import logo from "../../images/logo2.png";
+import { ReactComponent as FacebookIcon } from "../../images/linkedin-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as YoutubeIcon } from "../../images/github-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
@@ -36,7 +36,7 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>Xpactix</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
@@ -46,18 +46,18 @@ export default () => {
             <Link href="#">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink href="https://www.linkedin.com/company/xpactix-llc/">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            <SocialLink href="https://twitter.com/xpactix52748?t=X6fYlJ9TtavRCjcaD0KKdw&s=09">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://github.com/Xpactix-LLC">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2023, Xpactix LLC. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>
